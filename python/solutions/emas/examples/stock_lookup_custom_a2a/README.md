@@ -4,10 +4,6 @@
 
 **Note:** This example uses a custom implementation of A2A and MCP client/server components and has its dependencies pinned in its local `requirements.txt` file for reproducibility. Newer examples in this repository will utilize the official `a2a-sdk`.
 
----
-![Project Horizon Banner](../../assets/project-horizon.png) 
-<!-- Path to asset is now relative to the example's README location -->
----
 
 ## Overview of this Example
 

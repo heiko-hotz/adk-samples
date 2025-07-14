@@ -1,32 +1,25 @@
-# Project Horizon
+# Project EMAS (Exploring Multi Agent Systems)
 
 ## Exploring the Future of Interoperable, Multimodal AI Agent Systems
 
----
-![Project Horizon Banner](assets/project-horizon.png)
----
-
 ## Overview
 
-**Project Horizon explores the future of collaborative, multimodal AI agent systems.** It investigates how sophisticated, responsive, and interoperable agents can be built by integrating cutting-edge agent development frameworks and open communication protocols.
-
-![High-Level Architecture Diagram](assets/high-level-architecture.png)
-*(This diagram illustrates the general interaction patterns explored in Project Horizon, involving a Host Agent, Specialist Agents, and Tool Servers communicating via A2A and MCP.)*
+**Project EMAS explores the future of collaborative, multimodal AI agent systems.** It investigates how sophisticated, responsive, and interoperable agents can be built by integrating cutting-edge agent development frameworks and open communication protocols.
 
 This project serves as a testbed and a collection of reference implementations for:
 
-*   Integrating diverse agent frameworks and tools like **Google's Agent Development Kit (ADK)** and the **Gemini Live API**.
+*   Integrating diverse agent frameworks and tools like **Agent Development Kit (ADK)** and the **Gemini Live API**.
 *   Implementing standardized communication patterns between independent agents using protocols like **Agent2Agent (A2A)**.
 *   Enabling agents to securely interact with external tools and data sources using protocols like the **Model Context Protocol (MCP)**.
 *   Exploring advanced agent architectures, design patterns, and evaluation techniques.
 
-**Project Horizon aims to capture and demonstrate the future of agent interactions, providing technical implementations, architectural blueprints, and practical design patterns for building the next generation of AI applications.**
+**Project EMAS aims to capture and demonstrate the future of agent interactions, providing technical implementations, architectural blueprints, and practical design patterns for building the next generation of AI applications.**
 
 ## Core Technologies
 
 This project showcases and explores the integration of several key technologies:
 
-*   **[Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/)**: For building user-facing agents, orchestrating tasks, and managing multimodal communication.
+*   **[Agent Development Kit (ADK)](https://google.github.io/adk-docs/)**: For building user-facing agents, orchestrating tasks, and managing multimodal communication.
 *   **[Gemini Live API](https://ai.google.dev/gemini-api/docs/live)**: Powers real-time, low-latency, bidirectional voice (and potentially video) interactions within ADK.
 *   **[Agent2Agent Protocol (A2A)](https://google.github.io/A2A/)**: An open standard for communication and task delegation between independent AI agents.
     *   This repository includes examples using  a custom A2A implementation (for historical reference). An implementation with the  official **[google-a2a-python SDK](https://github.com/google/a2a-python)** is planned.
@@ -64,13 +57,3 @@ This project establishes a foundation for exploring advanced multi-agent systems
 *   **UI Enhancements:** Improve frontend UIs to better visualize multi-agent activity, tool calls, and potentially handle more complex inputs/outputs.
 *   **Agent Framework Interoperability:** Investigate and demonstrate patterns for integrating agents built with other frameworks (e.g., LangChain, CrewAI) into an A2A/MCP ecosystem, potentially via wrappers.
 *   **Security Considerations:** Further explore secure authentication and authorization mechanisms for A2A and MCP communication, especially for MCP over HTTP.
-
-## 📜 License
-
-This project is licensed under the Apache License 2.0. See the [LICENSE](./LICENSE) file.
-
-## 🤝 Contributing & Disclaimer
-
-This is a personal project by [Heiko Hotz](https://github.com/heiko-hotz) to explore Gemini capabilities and agent interoperability. Suggestions and feedback are welcome via Issues or Pull Requests.
-
-**This project is developed independently and does not reflect the views or efforts of Google.**
